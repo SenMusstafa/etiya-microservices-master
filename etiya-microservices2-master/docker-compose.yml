@@ -60,7 +60,7 @@ services:
     networks:
       - common_network
     environment:
-      - SPRING_CLOUD_CONFIG_SERVER_GIT_URI=https://github.com/halitkalayci/etiya-microservices-configurations.git
+      - SPRING_CLOUD_CONFIG_SERVER_GIT_URI=https://github.com/SenMusstafa/etiya-microservices-configurations.git
       - SPRING_CLOUD_CONFIG_SERVER_GIT_DEFAULT-LABEL=master
   postgres:
     image: postgres

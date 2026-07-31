@@ -1,5 +1,5 @@
 package etiya.notificationservice;
-import org.halitkalayci.common.events.OrderCreatedEvent;
+import com.etiya.common.events.OrderCreatedEvent;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.kafka.annotation.KafkaListener;

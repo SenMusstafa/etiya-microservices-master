@@ -1,7 +1,7 @@
 package com.etiya.orderservice.kafka;
 
 import lombok.RequiredArgsConstructor;
-import org.halitkalayci.common.events.OrderCreatedEvent;
+import com.etiya.common.events.OrderCreatedEvent;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.Message;

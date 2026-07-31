@@ -1,4 +1,4 @@
-package org.halitkalayci.common.events;
+package com.etiya.common.events;
 
 public class OrderCreatedEvent {
     private int id;

@@ -4,7 +4,7 @@ import com.etiya.orderservice.clients.ProductClient;
 import com.etiya.orderservice.dtos.SubmitOrderDto;
 import com.etiya.orderservice.kafka.OrderProducer;
 import lombok.RequiredArgsConstructor;
-import org.halitkalayci.common.events.OrderCreatedEvent;
+import com.etiya.common.events.OrderCreatedEvent;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

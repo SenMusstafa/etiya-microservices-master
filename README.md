@@ -1,4 +1,4 @@
-# Etiya Microservices
+# Spring-Cloud Microservices
 
 A Spring Cloud microservices skeleton demonstrating service discovery, centralized configuration, an API gateway, and event-driven communication between services.
 
